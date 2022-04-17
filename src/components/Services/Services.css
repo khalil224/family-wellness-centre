@@ -1,0 +1,32 @@
+.service-title {
+    text-align: center;
+    color: orange;
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 35px;
+}
+
+/* responsive homepage */
+@media screen and (max-width:640px) {
+    .services-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+@media screen and (min-width:641px) {
+    .services-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media screen and (min-width:1008px) {
+    .services-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}

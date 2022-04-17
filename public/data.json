@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "PREGNANCY CARE",
+        "visit": "500",
+        "description": "Looking for a Pregnancy Resource Center? Lean more about Caris Pregnancy Center today. Caris is helping women and children thrive during and after Unplanned Pregnancy. Visit us to get best health service",
+        "img": "https://i.ibb.co/gZNBP1M/pregnancy-care.jpg"
+    },
+    {
+        "id": 2,
+        "name": "OFFLINE CONSULTATION",
+        "visit": "400",
+        "description": "Looking for consultaion center?You can visit our chamber. Our motive to service you best treatment",
+        "img": "https://i.ibb.co/Q6M8T2X/offline-consultation.png"
+    },
+    {
+        "id": 3,
+        "name": "ONLINE CONSULTATION",
+        "visit": "350",
+        "description": "Looking for consultaion center?You can visit our chamber. We also provide online consultation . Our motive to service you best treatment.",
+        "img": "https://i.ibb.co/qN7FGsf/online-consultation.jpg"
+    },
+    {
+        "id": 4,
+        "name": "BACTERIOLOGICAL",
+        "visit": " 600",
+        "description": "Looking for a good  doctor for bacterial affected deases?You can visit our chamber. Our motive to service you best treatment",
+        "img": "https://i.ibb.co/gZwGcH6/Bacteriological.jpg"
+    },
+    {
+        "id": 5,
+        "name": "CYTOLOGICAL",
+        "visit": "500",
+        "description": "Looking for a good  doctor for Cytologica treatment?You can visit our chamber. Our motive to service you best treatment",
+        "img": "https://i.ibb.co/FmXQMPc/Cytological.png"
+    },
+    {
+        "id": 6,
+        "name": "HOROMONAL CONTRACEPTION",
+        "visit": "600",
+        "description": "Looking for a good  doctor for Horomonal Contraception?You can visit our chamber. Our motive to service you best treatment",
+        "img": "https://i.ibb.co/K06b0Pj/Hormonal-Contraception.jpg"
+    }
+]
