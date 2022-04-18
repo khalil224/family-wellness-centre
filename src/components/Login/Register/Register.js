@@ -48,7 +48,7 @@ const Register = () => {
                         <label>EMAIL</label>
                         <input ref={emailRef} type="email" placeholder="Enter Your Email" required />
                         <label>PASSWORD</label>
-                        <input ref={passwordRef} type="password" placeholder="Min 6 charaters long" required />
+                        <input ref={passwordRef} type="password" placeholder="Enter your password" required />
 
                         <button className='signup-button' type="submit">SIGNUP</button>
                         <p className='mt-2 '>Already have an account?<span className='text-primary px-2 ' style={{ cursor: 'pointer' }} onClick={navigateLogin}>Sign In here</span></p>

@@ -13,9 +13,9 @@ const Service = ({ service }) => {
     return (
         <div className='service-container'>
             <img className='w-100' src={img} alt="" />
-            <h2>{name}</h2>
-            <p >Visit: {visit}</p>
-            <p className='mb-5'><small>{description}</small></p>
+            <h4>{name}</h4>
+            <h6 className='fw-bold'>Visit: {visit}</h6>
+            <p className='mb-5 fw-bold'><small>{description}</small></p>
             <div>
                 <button onClick={() => VisitProceedDetail(id)} className='btn-visit'>Serial: {name} </button>
             </div>

@@ -70,10 +70,9 @@ const Login = () => {
                     <div className="brand-title">LOGIN</div>
                     <div className="inputs">
                         <label>EMAIL</label>
-
                         <input ref={emailRef} type="email" placeholder="example@test.com" required />
                         <label>PASSWORD</label>
-                        <input ref={passwordRef} type="password" placeholder="Min 6 charaters long" required />
+                        <input ref={passwordRef} type="password" placeholder="Enter your password" required />
                         <button className='login-button' type="submit">LOGIN</button>
                         {foundError}
                         <p className='mt-2 '>Don't have an account?<span className='text-primary px-2 ' style={{ cursor: 'pointer' }} onClick={navigateRegister}>Register here</span></p>
