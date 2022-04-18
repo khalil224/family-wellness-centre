@@ -12,7 +12,7 @@ form {
     font-family: poppins;
 }
 
-.login-container {
+.signup-container {
     position: relative;
     width: 350px;
     height: 500px;
@@ -71,7 +71,7 @@ input {
     box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
 }
 
-.login-button {
+.signup-button {
     color: white;
     margin-top: 20px;
     background: #1DA1F2;
