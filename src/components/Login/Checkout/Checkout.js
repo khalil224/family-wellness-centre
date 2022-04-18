@@ -1,8 +1,10 @@
 import React from 'react';
 import { Button, Form } from 'react-bootstrap';
+import { toast, ToastContainer } from 'react-toastify';
 import './Checkout.css'
 
 const Checkout = () => {
+    const submitMessage = () => toast("Congratulation! Your Appointment Confirmed")
     return (
 
         <form >
@@ -14,10 +16,10 @@ const Checkout = () => {
                     <label>EMAIL</label>
                     <input type="email" placeholder="Enter Your Email" required />
                     <label>Phone</label>
-                    <input type="number" placeholder="Your phone number" required />
+                    <input type="text" placeholder="Your phone number" required />
 
-                    <button className='signup-button' type="submit">submit</button>
-
+                    <button onClick={submitMessage} className='submit-button' type="submit">submit</button>
+                    <ToastContainer></ToastContainer>
 
                 </div>
             </div>
