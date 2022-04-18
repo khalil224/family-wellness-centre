@@ -1,0 +1,16 @@
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 175px;
+    min-height: 100%;
+    flex-direction: column;
+    height: auto !important;
+    height: 100%;
+    /* margin: 0 auto 250px; */
+}
+
+html,
+body {
+    min-height: 100%;
+}
