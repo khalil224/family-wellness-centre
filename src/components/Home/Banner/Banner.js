@@ -19,7 +19,7 @@ const Banner = () => {
     return (
         <div className='banner-container grid '>
             <div className='g-col-6'>
-                <h3>Our Gallery</h3>
+                <h3 className='text-warning'>Our Gallery</h3>
                 <h5>Take care of your body and it will take care of you.</h5>
                 <p>This is our gallery.Here are oursome services photo.We try to  provide best service.</p>
             </div>
