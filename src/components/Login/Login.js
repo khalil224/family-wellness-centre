@@ -3,6 +3,7 @@ import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../firebase/Firebase.init';
 import './Login.css'
+import SocialLogin from './SocialLogin/SocialLogin';
 
 const Login = () => {
     const [
@@ -17,6 +18,14 @@ const Login = () => {
     const navigate = useNavigate();
     const location = useLocation();
     let from = location.state?.from?.pathname || '/';
+
+    let foundError;
+
+    if (error) {
+
+        foundError = <p className='text-danger'>Error: {error.message}</p>
+
+    }
 
     if (user) {
         navigate(from, { replace: true });
@@ -45,7 +54,9 @@ const Login = () => {
                         <label>PASSWORD</label>
                         <input ref={passwordRef} type="password" placeholder="Min 6 charaters long" required />
                         <button className='login-button' type="submit">LOGIN</button>
+                        {foundError}
                         <p className='mt-2 '>Don't have an account?<span className='text-primary px-2 ' style={{ cursor: 'pointer' }} onClick={navigateRegister}>Register here</span></p>
+                        <SocialLogin></SocialLogin>
                     </div>
                 </div>
 
