@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import { Card, CardGroup } from 'react-bootstrap';
+import Information from './Information/Information';
 import Service from './Service/Service';
 import './Services.css'
 
@@ -23,6 +25,8 @@ const Services = () => {
                     ></Service>)
                 }
             </div>
+
+            <Information></Information>
         </div>
     );
 };

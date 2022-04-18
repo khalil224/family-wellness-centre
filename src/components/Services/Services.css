@@ -12,6 +12,10 @@
 
 }
 
+.card-container {
+    margin-top: 50px;
+}
+
 /* responsive homepage */
 @media screen and (max-width:640px) {
     .services-container {
