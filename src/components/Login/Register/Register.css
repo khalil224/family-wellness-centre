@@ -71,6 +71,16 @@ input {
     box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
 }
 
+input[type="checkbox"] {
+    box-shadow: none;
+    height: 15px;
+    display: block;
+}
+
+.condition {
+    display: block;
+}
+
 .signup-button {
     color: white;
     margin-top: 20px;
