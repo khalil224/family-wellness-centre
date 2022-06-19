@@ -12,7 +12,7 @@ const Register = () => {
         loading,
         error,
     ] = useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
-
+    //git path check korteci
     const nameRef = useRef('');
     const emailRef = useRef('');
     const passwordRef = useRef('');
